@@ -1,0 +1,142 @@
+/* Efecto de fade-in para toda la página */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Efecto de deslizamiento para la barra de navegación */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* Contenedor principal */
+.header {
+  background-image: url('/path-to-image.jpg'); /* Cambia esta ruta a tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  animation: fadeIn 1.5s ease;
+  position: relative;
+}
+
+/* Barra de navegación */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 1.2rem;
+  animation: slideIn 1s ease;
+}
+
+/* Logo */
+.logo {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Menú de navegación */
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: background 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #76c352;
+  border-radius: 5px;
+}
+
+/* Iconos sociales */
+.social-icons {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+}
+
+/* Flechas de navegación */
+.arrow {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  left: 1rem;
+}
+
+.right-arrow {
+  right: 1rem;
+}
+
+/* Texto principal */
+.main-text {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/* Texto secundario */
+.sub-text {
+  text-align: center;
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* Footer con icono de WhatsApp */
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #25d366;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  font-size: 0.9rem;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.footer:hover {
+  background-color: #1eb547;
+}
+
+.whatsapp-icon {
+  width: 20px;
+  height: 20px;
+}

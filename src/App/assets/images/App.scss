@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* === Plugin styles === */
+
+// @import "~chartist/dist/chartist.min.css";
+// @import '~@fullcalendar/core/main.css';
+// @import '~@fullcalendar/daygrid/main.css';
+// @import '~react-datepicker/dist/react-datepicker.css';
+// @import '~react-circular-progressbar/dist/styles.css';
+
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+@import "../src/assets/styles/variables";
+// @import "~compass-mixins/lib/compass";
+// @import "~compass-mixins/lib/animate";
+// @import "~bootstrap/scss/bootstrap";
+@import "../src/assets/styles/fonts";
+@import "../src/assets/styles/functions";
+
+// /* === Icon fonts === */
+// @import "~ti-icons/css/themify-icons.css";
+// @import "~@mdi/font/scss/materialdesignicons";
+// @import "~font-awesome/scss/font-awesome";
+// @import "~flag-icon-css/sass/flag-icon";
+// @import "~simple-line-icons/scss/simple-line-icons";
+// @import "~simple-line-icons/scss/simple-line-icons";
+// @import "~typicons.font/src/font/typicons.css";
+
+
+/* === Template mixins === */
+@import "../src/assets/styles/mixins/animation";
+@import "../src/assets/styles/mixins/badges";
+@import "../src/assets/styles/mixins/buttons";
+@import "../src/assets/styles/mixins/misc";
+@import "../src/assets/styles/mixins/color-functions";
+@import "../src/assets/styles/mixins/cards";
+@import "../src/assets/styles/mixins/blockqoute";
+@import "../src/assets/styles/mixins/popovers";
+@import "../src/assets/styles/mixins/tooltips";
+@import "../src/assets/styles/mixins/no-ui-slider";
+
+
+/* === Core Styles === */
+@import "../src/assets/styles/typography";
+@import "../src/assets/styles/reset";
+@import "../src/assets/styles/responsive";
+@import "../src/assets/styles/misc";
+@import "../src/assets/styles/utilities";
+@import "../src/assets/styles/demo";
+@import "../src/assets/styles/spinner";
+
+/* === Components === */
+
+@import "../src/assets/styles/components/forms";
+@import "../src/assets/styles/components/checkbox-radio";
+@import "../src/assets/styles/components/icons";
+@import "../src/assets/styles/components/tables";
+@import "../src/assets/styles/components/buttons";
+@import "../src/assets/styles/components/breadcrumbs";
+@import "../src/assets/styles/components/badges";
+@import "../src/assets/styles/components/cards";
+@import "../src/assets/styles/components/preview";
+@import "../src/assets/styles/components/tooltips";
+@import "../src/assets/styles/components/user-profile";
+@import "../src/assets/styles/components/lists";
+@import "../src/assets/styles/components/bootstrap-progress";
+@import "../src/assets/styles/components/bootstrap-alerts";
+@import "../src/assets/styles/components/tabs";
+@import "../src/assets/styles/components/dropdowns";
+@import "../src/assets/styles/components/pagination";
+@import "../src/assets/styles/components/loaders/loaders";
+@import "../src/assets/styles/components/timeline";
+@import "../src/assets/styles/components/todo-list";
+@import "../src/assets/styles/components/spinner";
+@import "../src/assets/styles/components/project-list";
+@import "../src/assets/styles/components/product-tile";
+@import "../src/assets/styles/components/user-listing";
+
+@import "../src/assets/styles/components/landing-screens/auth";
+
+/* === Plugin Overrides === */
+@import "../src/assets/styles/components/plugin-overrides/rating";
+@import "../src/assets/styles/components/plugin-overrides/date-picker";
+
+/* === Dashboard === */ 
+@import "../src/assets/styles/dashboard";
+
+/* === Layout === */
+@import "../src/assets/styles/navbar";
+@import "../src/assets/styles/sidebar";
+@import "../src/assets/styles/footer";
+@import "../src/assets/styles/layout";
+@import "../src/assets/styles/settings-panel";
+@import "../src/assets/styles/login";
